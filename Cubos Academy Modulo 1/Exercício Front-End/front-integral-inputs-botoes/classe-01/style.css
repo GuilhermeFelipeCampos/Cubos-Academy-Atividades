@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #CED5EC;
+    color: #000000;
+}
+
+.container-principal {
+    width: 693px;
+    height: 750px;
+    background-color: #FFFF;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 52px;
+    padding-right: 50px;
+}
+.container-principal-h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-principal h1 {
+    width: 256px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.container-principal h2 {
+    width: 167px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.container-principal span {
+    width: 405px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+
+.container-principal label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 5px;
+}
+
+.container-principal input {
+    all: unset;
+    box-sizing: border-box;
+
+    background: #FFFFFF;
+    border: 1px solid #CED5EC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 26px;
+    margin-bottom: 20px;
+}
+.container-principal input::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.container-pirncipal-labels-inputs {
+    display: flex;
+    flex-direction: row;
+}
+.container-principal-expiration-date {
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+}
+.container-principal-security-code {
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+}
+
+.container-principal p {
+    width: 533px;
+    height: 48px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 27px;
+}
+
+.container-principal button {
+    all:unset;
+    box-sizing: border-box;
+    height: 115px;
+    background: #5F82FF;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+}
+
+.container-principal button:hover {
+
+    background-color: #093DF3;
+    cursor: default;
+}
+
+.container-principal input:focus {
+    border: 1px solid #5F82FF;
+}

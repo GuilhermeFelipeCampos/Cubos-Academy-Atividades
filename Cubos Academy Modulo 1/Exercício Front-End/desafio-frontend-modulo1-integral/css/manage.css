@@ -1,0 +1,115 @@
+.section__hero {
+    width: 100%;
+    height: 100%;
+    margin: 0 0 115px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section__hero--image {
+ width: 100%;
+ 
+}
+
+.zero--border {
+    border:none;
+}
+.manage--h2 {
+    width: 400px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.manage--h3 {
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.285714px;
+    color: #33323D;
+    margin-bottom: 28px;
+
+}
+.manage--h3--p {
+    width: 100%;
+    height: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 40px;
+    
+}
+.manage--p {
+    width:unset;
+    width:350px ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+
+.manage--span {
+    margin:none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 16px ;
+}
+.manage__text--visit {
+    
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    padding: unset;
+    border-top: 1px solid  #DCDCDE;
+    border-bottom: 1px solid  #DCDCDE;
+}
+
+.manage--button{
+    margin-top: 30px;
+}
+
+.manage--text--image {
+    max-width: 512px;
+}
+
+.manage__navigate__links{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid  #DCDCDE;
+    border-bottom: 1px solid  #DCDCDE;
+    padding: 32px 0 32px 0;
+    margin-top: unset;
+    margin-bottom: 32px;
+}
+.links--texts{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.links--h3--span {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+
+}

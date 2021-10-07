@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/spacing.css">
+    <script src="script.js" defer></script>
+
+    <title>Exercício Classe 01</title>
+</head>
+
+<body class="flex-row">
+    <aside class="side-menu hidden flex-column">
+        <button class="side-menu__button side-menu__button--open">
+            <img src="./assets/closed-menu.svg" alt="menu fechado">
+        </button>
+        <button class="side-menu__button flex-row align-center">
+            <img src="./assets/active-home.svg" alt="home">
+            <span class="pad-left">Início</span>
+        </button>
+        <button class="side-menu__button flex-row align-center">
+            <img src="./assets/inactive-like.svg" alt="favoritos">
+            <span class="pad-left">Favoritos</span>
+        </button>
+        <button class="side-menu__button margin-top-auto flex-row align-center">
+            <img src="./assets/inactive-settings.svg" alt="configurações">
+            <span class="pad-left">Configurações</span>
+        </button>
+    </aside>
+    <main class="main">
+        <h1 class="main_title">Início</h1>
+        <div class="galeria_imagens flex-row flex-wrap justify-center">
+            <div class="imagem">
+                <img class="item__like escondido" src="./assets/like.svg" alt="Like">
+                <img src="./assets/gallery/image 1.png" alt="hamster" class="item__image">
+                <div class="flex-row justify-between">
+                    <span>lorem ipsum</span>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagem">
+                <img class="item__like escondido" src="./assets/like.svg" alt="Like">
+                <img src="./assets/gallery/image 2.png" alt="gato" class="item__image">
+                <div class="flex-row justify-between">
+                    <span>lorem ipsum</span>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagem">
+                <img class="item__like escondido" src="./assets/like.svg" alt="Like">
+                <img src="./assets/gallery/image 3.png" alt="cachorro" class="item__image">
+                <div class="flex-row justify-between">
+                    <span>lorem ipsum</span>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagem">
+                <img class="item__like escondido" src="./assets/like.svg" alt="Like">
+                <img src="./assets/gallery/image 4.png" alt="gorila" class="item__image">
+                <div class="flex-row justify-between">
+                    <span>lorem ipsum</span>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagem">
+                <img class="item__like escondido" src="./assets/like.svg" alt="Like">
+                <img src="./assets/gallery/image 5.png" alt="botboleta" class="item__image">
+                <div class="flex-row justify-between">
+                    <span>lorem ipsum</span>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagem">
+                <img class="item__like escondido" src="./assets/like.svg" alt="Like">
+                <img src="./assets/gallery/image 6.png" alt="onça" class="item__image">
+                <div class="flex-row justify-between">
+                    <span>lorem ipsum</span>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagem">
+                <img class="item__like escondido" src="./assets/like.svg" alt="Like">
+                <img src="./assets/gallery/image 7.png" alt="raposa" class="item__image">
+                <div class="flex-row justify-between">
+                    <span>lorem ipsum</span>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagem">
+                <img class="item__like escondido" src="./assets/like.svg" alt="Like">
+                <img src="./assets/gallery/image 8.png" alt="cachorrinho" class="item__image">
+                <div class="flex-row justify-between">
+                    <span>lorem ipsum</span>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagem">
+                <img class="item__like escondido" src="./assets/like.svg" alt="Like">
+                <img src="./assets/gallery/image 9.png" alt="tartaruga" class="item__image">
+                <div class="flex-row justify-between">
+                    <span>lorem ipsum</span>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagem">
+                <img class="item__like escondido" src="./assets/like.svg" alt="Like">
+                <img src="./assets/gallery/image 10.png" alt="leão" class="item__image">
+                <div class="flex-row justify-between">
+                    <span>lorem ipsum</span>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="modal escondido flex-row justify-center align-center">
+        <button class="modal__button modal__button--close">
+            <img src="./assets/close-modal.svg" alt="close modal">
+        </button>
+        <div class="modal__container flex-row align-center">
+            <img src="./assets/prev.svg" alt="voltar" class="modal__button modal__button--previous">
+            <img>
+            <img src="./assets/like.svg" alt="like" class="modal__like hidden">
+            <img src="./assets/next.svg" alt="avançar" class="modal__button modal__button--next">
+
+        </div>
+    </div>
+</body>
+
+</html>

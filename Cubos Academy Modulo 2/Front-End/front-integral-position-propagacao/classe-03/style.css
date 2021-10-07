@@ -1,0 +1,127 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0;
+    position: relative;
+}
+header{
+    position: sticky;
+    top:0;
+    max-width: 100vw;
+    height: 164px;
+    background: #E8BBA8;
+    filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.18));
+    z-index: 2;
+}
+li {
+   list-style: none; 
+   margin-right:80px ;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #461B09;
+    
+}
+.margin-zero{
+    margin-right: 0;
+}
+.cabecalho {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 48px;
+
+}
+.cabecalho img {
+    width: 68px;
+    height: 68px;
+}
+
+.cabecalho ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;  
+}
+
+.text{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.text h1 {
+    width: 714px;
+    height: 159px;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+
+    margin-left: 1px;
+    margin-bottom: 56px;
+
+    color: #000000;
+}
+
+.text p {
+    height: 139px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+
+}
+
+.imagens {
+    height: 512px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 50px;
+}
+
+.imagem-1{
+    position: relative;
+}
+.imagem-2{
+    position: relative;
+    bottom:30px;
+    right: 50px ;
+}
+
+.text-2{
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+
+    height: 139px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.modal {
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}

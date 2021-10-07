@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.alinhar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+.escondido  {
+    
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.escondido1{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.escondido2{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.escondido3{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

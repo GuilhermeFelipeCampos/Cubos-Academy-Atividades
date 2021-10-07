@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:#1F1C44;
+    
+}
+
+.container-principal {
+    width: 517px;
+    height: 765px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding:60px 90px 50px 90px;
+    font-family: 'Neuton', serif;
+    margin-top: 50px;
+
+}
+
+.container-principal h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+
+    margin-bottom: 54px;
+}
+
+.container-principal a {
+    width: 337px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #5B86E6;
+    border-radius: 5px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    margin-right: 10px;
+    color: white;
+    padding: 7px 72px;
+    margin-bottom: 55px;
+}
+.container-principal a:hover {
+    background: #5B86E6;
+    box-shadow: 0px 4px 13px rgba(19, 69, 178, 0.3);
+    border-radius: 5px;
+    cursor: default;
+}
+.container-principal img {
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 11px;
+}
+
+.container-principal span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #949495;
+    margin-bottom: 39px;
+
+}
+
+.container-principal-label-input-name {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.container-principal-label-input-name label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 4px;
+
+}
+
+.container-principal-label-input-name input {
+    all:unset;
+    box-sizing: border-box;
+    width: 337px;
+    height: 69px;
+    background: #FFFFFF;
+    border: 1px solid #D9DCED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 25px 0 24px 22px;
+}
+
+.container-principal-label-input-name input::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949495;
+}
+
+.container-principal-label-input-name input:focus {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.container-principal-label-input-email {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.container-principal-label-input-email label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 4px;
+
+}
+.container-principal-label-input-email input {
+    all:unset;
+    box-sizing: border-box;
+    width: 337px;
+    height: 69px;
+    background: #FFFFFF;
+    border: 1px solid #D9DCED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 25px 0 24px 22px;
+}
+
+.container-principal-label-input-email input::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949495;
+}
+.container-principal-label-input-email input:focus {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.container-principal button {
+    all: unset;
+    box-sizing: border-box;
+    width: 337px;
+    height: 69px;
+    background: #E65B7C;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF; 
+    margin-bottom: 55px;
+}
+.container-principal button:hover {
+    background: #E65B7C;
+    box-shadow: 0px 4px 15px rgba(204, 28, 69, 0.3);
+    border-radius: 5px;
+    cursor: default;
+}
+
+.container-principal-text-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.container-principal-text-link a {
+    all:unset;
+    color: #5B86E6;
+}
+.container-principal-text-link a:hover {
+    all:unset;
+    cursor: pointer;
+
+}

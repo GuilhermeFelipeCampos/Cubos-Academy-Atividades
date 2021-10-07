@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "roboto", sans-serif;
+}
+
+.side-menu {
+    background-color: #313131;
+
+    padding: 20px;
+
+    gap: 40px;
+
+    position: fixed;
+    bottom: 0;
+    top:0;
+
+    color: #FFFFFF;
+   
+}
+.side-menu.hidden span{
+
+    display: none;
+    
+
+}
+.side-menu__button{
+    all:unset;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.main {
+    flex-grow: 1;
+    text-align: center;
+    padding: 40px ;
+}
+
+.main_title {
+    margin-bottom: 40px ;
+}
+
+.margin-top-auto {
+    margin-top: auto;
+}
+
+.galeria_imagens{
+    gap: 30px;
+}
+
+.imagem {
+    position: relative;
+}
+.item__like {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+  }
+  
+  .item__image {
+    cursor: pointer;
+    margin-bottom: 18px;
+  }
+  
+  .item__title,
+  .item__date {
+    font-size: 20px;
+  }
+  
+  .item__date {
+    color: #5C5C5C;
+  }
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.6);
+  
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+  }
+  
+  .modal__button {
+    all: unset;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  .modal__button--close {
+    position: absolute;
+  
+    top: 90px;
+    right: 45px;
+  }
+  
+  .modal__container {
+    position: relative;
+  }
+  
+  .modal__image {
+    width: 500px;
+    height: auto;
+  }
+  
+  .modal__like {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+  }
+  
+  .modal__button--previous {
+    position: absolute;
+    left: -100px;
+  }
+  
+  .modal__button--next {
+    position: absolute;
+    right: -100px;
+  }

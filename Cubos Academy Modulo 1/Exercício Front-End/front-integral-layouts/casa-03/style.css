@@ -1,0 +1,469 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh; 
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #FFFCF8;
+}
+
+.containercreatives{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('assets/image-header.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    
+}
+.creativessunnyside {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+
+   
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+li {
+    margin-left: 5px;
+    font-family: 'Barlow', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    padding-top: 10px;
+    margin-right: 25px;
+}
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    
+}
+
+a{
+    display: flex;
+    font-family: 'Fraunces', serif;
+    text-decoration: none;
+    color: #24303E;
+    letter-spacing: -0.107143px;
+    text-transform: uppercase;
+    background-color: #FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 30px 15px 32px;
+    border-radius: 50px;
+    margin-top: -17px;
+
+}
+
+.creatives-texto {
+    display: flex;
+    align-items: center;
+    
+}
+.creativestextoprincipal {
+    font-family: 'Fraunces', serif;
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 69px;
+    text-align: center;
+    letter-spacing: 8.75px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+    
+}
+.creatives-seta {
+    margin-top: 50px;
+}
+.container-transform-ovo{
+    display: flex;
+    width: 100%;
+    
+    
+    
+}
+
+.transform {
+    width: 720px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.transform-titulo {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 49px;
+    letter-spacing: -0.285714px;
+    color: #24303E;
+    width: 445px;
+    height: 98px;
+    margin-top: 130px;
+    margin-bottom: 32px;
+    text-align: left;
+    
+}
+
+.transform-texto {
+
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.128571px;
+    color: #808397;
+    width: 445px;
+    height: 90px;
+    margin-bottom: 40px;
+    
+}
+
+
+.transform-link {
+    
+    text-decoration: none;
+    margin-right: 335px;
+    
+   
+}
+
+.ovo {
+    background-image: url('assets/image-transform.jpg');
+    width: 720px;
+    height: 600px;
+    
+}
+
+.container-copo {
+    display: flex;
+    width: 100%;
+    
+}
+
+.copo-imagem {
+    width: 720px;
+    height: 600px;
+    background-image: url('assets/image-stand-out.jpg');
+    
+}
+
+.copo-textos {
+    width: 720px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.copo-titulo {
+    width: 445px;
+    height: 98px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.285714px;
+    color: #24303E;
+    margin-bottom: 33px;
+    
+}
+.copo-texto {
+    width: 445px;
+    height: 90px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.128571px;
+    color: #808397;
+    margin-bottom: 40px;
+    
+}
+.copo-link {
+    
+    text-decoration: none;
+    margin-right: 330px;
+    
+
+}
+
+.container-imagens{
+
+    display: flex;
+    width: 100%;
+    
+   
+
+}
+.imagem-cereja {
+    width: 720px;
+    height: 600px;
+    background-image: url('assets/image-graphic-design.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+
+}
+
+.imagem-laranja {
+    width: 720px;
+    height: 600px;
+    background-image: url('assets/image-photography.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+
+
+.cereja-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.cereja-titulo {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #24554A;
+    
+
+}
+.cereja-texto {
+    width: 339px;
+    height: 143px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: left;
+    letter-spacing: -0.114286px;
+    color: #3E7467;
+    margin-top: 27px;
+    margin-bottom: 59px;
+    
+
+}
+
+.laranja-titulo2 {
+
+
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #052C3B;
+    
+
+}
+
+.laranja-texto2 {
+    width: 339px;
+    height: 143px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.114286px;
+    color: #19536C;
+    margin-top: 27px;
+    margin-bottom: 59px;
+
+}
+
+.container-client-testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 0 160px 165px;
+
+
+}
+
+.container-client-testimonials h1 {
+
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #A7AAAD;
+    margin-bottom: 81px;
+}
+
+.container-client-testimonials-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container-client-testimonials-image img {
+    Width:72px;
+    height:72px;
+    border-radius: 50%;
+    margin-bottom: 58px;
+}
+
+.container-client-testimonials-image p {
+
+    width: 350px;
+    height: 96px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #5B636D;
+    margin-bottom: 69px;
+
+}
+
+.container-client-testimonials-image h2 {
+
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #24303E;
+    margin-bottom: 9px;
+}
+.container-client-testimonials-image span {
+
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #A7AAAD;
+    margin-bottom: 160px;
+
+}
+
+.container-principal-four-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-principal-four-images img {
+    width: 360px;
+    height: 447px;
+}
+
+.container-principal-sunnyside {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #90D4C6;
+}
+
+.container-principal-sunnyside h1 {
+    
+    color: #2C7566;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.container-principal-sunnyside-about-services-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-principal-sunnyside-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container-principal-sunnyside a {
+    all:unset;
+}
+
+.container-principal-sunnyside-about-services-projects {
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    color: #458D7E;
+    margin-bottom: 88px;
+
+}
+
+.container-principal-sunnyside-about-services-projects a {
+    margin-left: 57px;
+}
+
+.container-principal-sunnyside-icons a {
+    margin-left: 28px;
+}
+
+

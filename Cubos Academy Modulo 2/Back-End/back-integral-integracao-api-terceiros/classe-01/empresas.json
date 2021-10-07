@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Nike",
+    "domain": "nike.com",
+    "year_founded": 1972,
+    "industry": "Sporting goods",
+    "employees_count": 99157,
+    "locality": "Beaverton",
+    "country": "United States",
+    "linkedin_url": "linkedin.com/company/nike"
+  },
+  {
+    "name": "Microsoft",
+    "domain": "microsoft.com",
+    "year_founded": 1975,
+    "industry": "Computer software",
+    "employees_count": 189892,
+    "locality": "Redmond",
+    "country": "United States",
+    "linkedin_url": "linkedin.com/company/microsoft"
+  },
+  {
+    "name": "Google",
+    "domain": "google.com",
+    "year_founded": 1998,
+    "industry": "Internet",
+    "employees_count": 219238,
+    "locality": "Mountain View",
+    "country": "United States",
+    "linkedin_url": "linkedin.com/company/google"
+  },
+  {
+    "name": "Sbt",
+    "domain": "sbt.com.br",
+    "year_founded": 1981,
+    "industry": "Broadcast media",
+    "employees_count": 3436,
+    "locality": null,
+    "country": "Brazil",
+    "linkedin_url": "linkedin.com/company/sbt"
+  },
+  {
+    "name": "Companhia Fluminense De Refrigerantes | Coca-Cola",
+    "domain": "cocacola.com.br",
+    "year_founded": 1949,
+    "industry": "Food & beverages",
+    "employees_count": 36,
+    "locality": null,
+    "country": null,
+    "linkedin_url": "linkedin.com/company/companhia-fluminense-de-refrigerantes-coca-cola"
+  }
+]

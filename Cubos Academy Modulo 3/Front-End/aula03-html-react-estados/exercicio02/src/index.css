@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 100vh;
+}
+
+.claro {
+  background-color: white;
+  color: black;
+}
+.escuro {
+  background-color: black;
+  color: white;
+}

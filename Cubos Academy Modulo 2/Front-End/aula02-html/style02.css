@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+input {
+    margin-bottom: 16px;
+}
+
+.acerto {
+    
+    border: 5px solid green;
+}

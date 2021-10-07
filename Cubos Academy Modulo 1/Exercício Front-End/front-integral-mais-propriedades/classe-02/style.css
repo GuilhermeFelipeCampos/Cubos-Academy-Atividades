@@ -1,0 +1,82 @@
+body {
+    background: #E5E5E5;
+    padding: 100px;
+}
+
+div {
+     background: #FFFFFF;
+     font-family: 'Merriweather', serif;
+     color: #101439; 
+     width: 505px;
+     box-shadow: 0px 15px 30px -20px #D4DCF3;
+     border-radius: 10px;
+     padding: 65px 85px 65px;
+     box-sizing: border-box;
+}
+
+.texto{
+    font-size: 22px;
+    width: 100%;
+    line-height: 36px;
+
+}
+h1 {
+    font-size: 65px;
+   height: 45px;
+   margin: 0;
+    
+}
+.autor{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.news {
+    background: #101439 ;
+    color: #FFFFFF;
+    padding:  60px;
+    width: 435px;
+    margin-left: 18px;
+
+}
+
+.primeiro {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.segundo {
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.terceiro{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 80px;
+}
+
+.botao {
+    font-family: Open Sans;
+    color : #101439;
+    font-weight: bold;
+    background: #FFFFFF;
+    text-decoration: none;
+    width: 331px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px 107px;
+    line-height: 28px;
+    
+}
+

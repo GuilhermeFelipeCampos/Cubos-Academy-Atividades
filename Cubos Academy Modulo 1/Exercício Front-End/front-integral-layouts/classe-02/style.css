@@ -1,0 +1,138 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+
+    background-image: url('assets/background.jpg');
+    background-color: #19A1AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 173px;
+ }
+ .pai {
+    width: 350px;
+    height: 374px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('assets/bg-pattern-card.svg');   
+}
+.filho {
+    width: 350px;
+    height: 140px;
+    left: -11px;
+    top: -4px; 
+}
+ .segundofilho {
+     width: 350px;
+     height: 234px;
+     display: flex;
+     justify-content: center;
+     background: #FFFFFF;
+     font-family: 'Kumbh Sans', sans-serif;
+     border-bottom-left-radius: 15px;
+     border-bottom-right-radius: 15px;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ img { 
+    border: 5px solid #FFFFFF; 
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    left: calc(50% - 96px/2);
+    top: calc(50% - 96px/2 - 47px);  
+    margin-top: -85px;
+    
+ }
+
+ .netosegundofilho {
+
+    display: flex;
+    flex-direction:row;
+    list-style-type: none;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+h1{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    padding-left: 18px ;
+    color:  #2E3349;
+
+    
+ }
+ p {
+
+     padding-left:9px ;
+     font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #6B7082;
+ }
+
+ .lugar {
+    padding-top: 10px;
+     font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #6B7082;
+    margin-bottom: 50px;
+ }
+
+ .netosegundofilho2 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border-top: 1px solid #E8E9EC;;
+
+ }
+
+ ul {
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ li {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    list-style: none;
+    color: #2E3349;
+    padding-right:30px;
+    padding-left: 40px;
+    margin-top: 9px;
+
+ }
+
+.descricao {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+    margin-top:9px;
+    padding-left: 23px;
+
+}

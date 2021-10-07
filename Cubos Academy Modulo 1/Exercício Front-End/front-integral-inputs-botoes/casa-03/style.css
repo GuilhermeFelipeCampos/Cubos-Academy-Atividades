@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: #F8EFEF;
+}
+
+.container-principal {
+
+    width: 610px;
+    height: 708px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 64px 0 56px 90px;
+}
+
+.container-principal h1 {
+    font-family: 'Rokkitt', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #161843;
+    margin-bottom: 15px;
+}
+
+.container-principal p {
+    width: 339px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #161843;
+    margin-bottom: 52px;
+
+}
+
+.container-principal input {
+    all:unset;
+    box-sizing: border-box;
+    width: 430px;
+    height: 73px;
+    border: 1px solid #CAD6E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 25px 0 25px 25px;
+}
+.container-principal input:focus {
+    border: 1px solid #26394F;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.container-principal input::placeholder {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #343945;
+
+}
+
+.container-principal-link-button {
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+    margin-top:16px ;
+    padding-bottom:55px ;
+    align-items: center;
+    border-bottom:  1px solid #CAD6E4;
+}
+
+.container-principal-link-button a {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0C6787;
+
+}
+
+.container-principal-link-button button {
+    all: unset;
+    box-sizing: border-box;
+    width: 157px;
+    height: 73px;
+    background: #046586;
+    border-radius: 5px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+.container-principal-link-button button:hover {
+    border: 2px solid #046586;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.container-principal-link-button img{
+    margin-left: 14px;
+}
+
+.container-principal-span {
+    width: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #838A9E;
+
+}
+
+.container-principal-facebook-google{
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container-principal-facebook-google a {
+    width: 207px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #CAD6E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.container-principal-facebook-google img {
+    width: 34px;
+    height: 34px;
+    margin-right: 11px;
+}
+
+.container-principal-facebook-google a:hover {
+    background: #FFFFFF;
+    border: 1px solid #26394F;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.container-principal-span-link {
+    width: 430px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 60px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.container-principal-span-link span {
+    color: #000000;
+
+}
+.container-principal-span-link a {
+    color: #046586;
+    text-decoration-line: underline;
+}

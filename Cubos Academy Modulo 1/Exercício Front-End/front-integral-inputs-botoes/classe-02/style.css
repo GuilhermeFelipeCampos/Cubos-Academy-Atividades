@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: #E5E5E5;
+}
+
+.container-principal {
+    width: 100%;
+    height: 624px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-image: url('assets/background.png');
+}
+
+.container-principal-img {
+    width: 100%;
+    height: 31px;
+    opacity: 0.5;
+    text-align: end;
+    margin-left: 25px;
+    padding-top: 15px;
+    
+}
+.container-principal-elements{
+    width: 739px;
+    height: 442px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #000000;
+}
+
+.container-principal-elements h1 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container-principal-elements p{
+    width: 557px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;    
+}
+
+.container-principal-input-button {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.container-principal-input-button input{
+    all:unset;
+    box-sizing: border-box;
+    width: 510px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    padding: 15px 0 14px 20px;
+}
+
+.container-principal-input-button input:focus {
+    background: #FFFFFF;
+    border: 1px solid #272727;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.container-principal-input-button input::placeholder{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1F1E1E;
+
+}
+.container-principal-input-button button{
+    all:unset;
+    box-sizing: border-box;
+    width: 119px;
+    height: 49px;
+    background: #9677EF;
+    border-radius: 5px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.container-principal-input-button button:hover {
+    background: rgba(150, 119, 239, 0.8);
+    box-shadow: 0px 11px 20px rgba(150, 119, 239, 0.3);
+    border-radius: 5px;
+    cursor: default;
+}
+.container-principal-texts {
+    display: flex;
+    flex-direction: column;
+    background: #F8F9FD;
+    border-radius: 6px;
+    margin-top: 50px;
+    padding-left: 20px;
+
+
+}
+.container-principal-texts h3 {
+    width: 124px;
+    height: 18px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #494949;
+    margin-top: 30px ;
+    margin-bottom: 15px;
+    
+}
+
+.container-principal-texts span {
+    width: 467px;
+    height: 42px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+    margin-bottom: 30px;
+}

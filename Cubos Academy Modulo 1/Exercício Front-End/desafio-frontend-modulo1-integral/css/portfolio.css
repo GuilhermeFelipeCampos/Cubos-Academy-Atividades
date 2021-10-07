@@ -1,0 +1,27 @@
+
+.manage--h2 {
+    margin-top: 20%;
+    margin-bottom: 50px;
+}
+.manage--p {
+    width: 450px;
+    height: 80px;
+    margin-bottom: 20%;
+}
+.manage--button {
+    margin-left: 0;
+    margin-bottom: 20%;
+}
+
+.margin{
+    margin: 0;
+}
+
+
+.manage--image {
+    margin: unset;
+    margin-left: 7%;
+
+}
+
+

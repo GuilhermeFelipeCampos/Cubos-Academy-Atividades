@@ -1,0 +1,58 @@
+.ibarra--Real--nova{
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.public--sans {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.public--sans--400 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.real--nova--700{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+}
+
+.public--sans--p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.public--sans--400--normal {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.real--400{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.285714px;
+    color: #33323D;
+
+}
+
+.text-align {
+    text-align: right;
+}

@@ -1,0 +1,26 @@
+.cyan{
+    color: #5FB4A2;
+}
+.dark--blue {
+    color: #203A4C;
+}
+.grayish--dark--blue {
+    color: #33323D;
+}
+.white {
+    color:#FAFAFA;
+}
+
+.background--white{
+    background: #FAFAFA;
+}
+.background--darkblue {
+    background: #203A4C;
+}
+.background--grayish {
+    background-color: #1D3444;
+}
+
+.light--gray {
+    color: #C4C4C4;
+}

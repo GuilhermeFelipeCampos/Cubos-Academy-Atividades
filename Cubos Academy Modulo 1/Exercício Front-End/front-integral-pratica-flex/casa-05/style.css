@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF0F4 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+
+.container-principal-jenny {
+    width: 583px;
+    height: 314px;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 45px -15px rgba(2, 5, 132, 0.25);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.container-principal-jenny-follow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #EFEFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 7.04px 19.8px -6.6px rgba(2, 5, 132, 0.2);
+}
+
+.container-principal-jenny-follow-text {
+    margin-right: 100px;
+}
+
+.container-principal-jenny-follow-text h1 {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 28px;
+    color: #202142;
+    margin-bottom: 10px;
+}
+
+.container-principal-jenny-follow-text p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202142;
+}
+
+.container-principal-jenny-follow a {
+    width: 146px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    background: #202142;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.icone-usuario {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.container-principal-jenny-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-principal-jenny-images img {
+    width: 164.2px;
+    height: 123.15px;
+    border-radius: 10px;
+    margin-top:  40px;
+    margin-bottom: 31px;
+}
+
+.container-principal-user {
+    width: 100%;
+    height: 222px;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 45px -15px rgba(2, 5, 132, 0.25);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.container-principal-user img {
+    margin:0
+}
+
+.container-principal-user-text{
+    margin-top: 43px;
+    margin-right: 280px;
+}
+
+.container-principal-user-text h1 {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 28px;
+    color: #202142;
+    margin-bottom: 5px;
+}
+
+.container-principal-user-text p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202142;
+    margin-bottom: 20px;
+}
+
+.container-principal-user a {
+    width: 171px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #202142;
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    border: 1px solid #A4A4CB;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+
+.icone-usuario2 {
+
+    all: unset;
+    color:#202142;
+    width: 24px;
+    height: 24px;
+    padding-right: 10px;
+}
+
+.container-principal-user-images {
+    width: 688px;
+    height: 162px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.container-principal-user-images img {
+    width: 216px;
+    height: 162px;
+    
+}
+
+
+

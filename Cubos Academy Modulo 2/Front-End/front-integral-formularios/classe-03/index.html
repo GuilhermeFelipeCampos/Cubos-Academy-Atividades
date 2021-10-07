@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Exercício Classe 03</title>
+</head>
+
+<body>
+    <div class="genero-musical">
+        <h1>Recomendação de música</h1>
+        <select name="genero-musical" id="genero-musical">
+            <option value="">Escolha gênero musical:</option>
+            <option value="rock">Rock</option>
+            <option value="hip-hop">Hip-Hop</option>
+            <option value="rb">R&B</option>
+        </select>
+        <button type="submit" class="escolher">Escolher</button>
+        <div class="alinhar">
+            <div class="escondido">
+                <form method="GET">
+                    <label for="musica">Pesquise Aqui a música que quer ouvir </label>
+                    <input type="text" name="q">
+                    <label for="">ou Escolha um playList pela lista:</label>
+                    <div class="escondido1">
+                        <select name="playlist-rock" id="playlist-rock">
+                            <option value="">Escolha a PlayList Desejada:</option>
+                            <option value="v=27n65M6j43o">80s 90s Rock Playlist</option>
+                            <option value="v=dpg6MKq7BMY">POP ROCK ANOS 90 e 2000</option>
+                            <option value="v=cdwxZGhFzCk">New Rock Songs 2021</option>
+                        </select>
+                    </div>
+                    <div class="escondido2">
+                        <select name="playlist-hiphop" id="playlist-hiphop">
+                            <option value="">Escolha a PlayList Desejada:</option>
+                            <option value="v=-aqck3U0y-0">HIP HOP 2000</option>
+                            <option value="v=WQ3Q4pvm4HI">HIP-HOP ANOS 90</option>
+                            <option value="v=PXTmi6r3qiM">Hip Hop Rap 2021</option>
+                        </select>
+
+                    </div>
+                    <div class="escondido3">
+                        <select name="playlist-r&b" id="playlist-rb">
+                            <option value="">Escolha a PlayList Desejada:</option>
+                            <option value="v=Mmf-79VT7_4">R&B ANOS 2000</option>
+                            <option value="v=N4oiiQ6677o">R&B ANOS 90</option>
+                            <option value="v=2BIoQoOpk4U">R&B 2021</option>
+                        </select>
+                    </div>
+                    <button type="submit"> Buscar</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
