@@ -1,0 +1,58 @@
+{
+  "transactions": [
+    {
+      "date": "2021-10-01T00:00:00-03:00",
+      "week_day": "sexta",
+      "description": "Venda de carro",
+      "value": 19000,
+      "category": "Vendas",
+      "type": "credit",
+      "id": 1
+    },
+    {
+      "date": "2021-10-11T00:00:00-03:00",
+      "week_day": "segunda",
+      "description": "salario",
+      "value": 10000,
+      "category": "salar4io",
+      "type": "debit",
+      "id": 2
+    },
+    {
+      "date": "2021-10-12T00:00:00-03:00",
+      "week_day": "terça",
+      "description": "Ceci",
+      "value": 10000,
+      "category": "cabeleleio",
+      "type": "debit",
+      "id": 3
+    },
+    {
+      "date": "2021-12-21T00:00:00-03:00",
+      "week_day": "terça",
+      "description": "Apex Games",
+      "value": 15000,
+      "category": "jogos",
+      "type": "credit",
+      "id": 4
+    },
+    {
+      "date": "2021-10-12T00:00:00-03:00",
+      "week_day": "terça",
+      "description": "Viagem",
+      "value": 15000,
+      "category": "moto",
+      "type": "credit",
+      "id": 5
+    },
+    {
+      "date": "2021-10-21T00:00:00-03:00",
+      "week_day": "quinta",
+      "description": "carro",
+      "value": 5500,
+      "category": "Vendas",
+      "type": "debit",
+      "id": 6
+    }
+  ]
+}
